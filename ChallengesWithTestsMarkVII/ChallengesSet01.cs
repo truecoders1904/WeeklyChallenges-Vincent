@@ -8,7 +8,11 @@ namespace ChallengesWithTestsMarkVII
     {
         public bool AreTwoNumbersTheSame(int num1, int num2)
         {
-            throw new NotImplementedException();
+            if (num1 == num2)
+                return true;
+            else
+                return false;
+
         }
 
         public double Subtract(double minuend, double subtrahend)
