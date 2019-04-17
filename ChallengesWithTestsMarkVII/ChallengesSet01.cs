@@ -27,9 +27,15 @@ namespace ChallengesWithTestsMarkVII
 
         public int GetSmallestNumber(int number1, int number2)
         {
-            throw new NotImplementedException();
+            
+                if (number1 > number2)
+                {
+                    return number2;
+                }
+                return number1;
+            
         }
-
+                
         public long Multiply(long factor1, long factor2)
         {
             return factor1 * factor2;
@@ -37,7 +43,26 @@ namespace ChallengesWithTestsMarkVII
 
         public string GetGreeting(string nameOfPerson)
         {
-            throw new NotImplementedException();
+            string response = Console.ReadLine();
+            if (nameOfPerson == response) 
+            {
+                return "Hello!";
+            }
+
+            else if (nameOfPerson == response)
+            {
+                return "Hello, John Thomas!";
+            }
+            else if (nameOfPerson == response)
+            {
+                return "Hello, John!";
+            }
+            else if (nameOfPerson == response);
+            {
+                return "Hello, Leigh Ann!";
+            }
+                return "Hello, Leigh!";
+            
         }
 
         public string GetHey()
