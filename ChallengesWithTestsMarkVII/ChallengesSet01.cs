@@ -43,26 +43,12 @@ namespace ChallengesWithTestsMarkVII
 
         public string GetGreeting(string nameOfPerson)
         {
-            string response = Console.ReadLine();
-            if (nameOfPerson == response) 
+            if (nameOfPerson == "")
             {
                 return "Hello!";
             }
+            return "Hello, " + nameOfPerson + "!";
 
-            else if (nameOfPerson == response)
-            {
-                return "Hello, John Thomas!";
-            }
-            else if (nameOfPerson == response)
-            {
-                return "Hello, John!";
-            }
-            else if (nameOfPerson == response);
-            {
-                return "Hello, Leigh Ann!";
-            }
-                return "Hello, Leigh!";
-            
         }
 
         public string GetHey()
