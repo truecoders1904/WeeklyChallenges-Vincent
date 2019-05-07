@@ -59,12 +59,23 @@ namespace ChallengesWithTestsMarkVII
 
         public int[] GetOddsBelow100()
         {
-            throw new NotImplementedException();
+            int index = 0;
+            int[] odds = new int[50];
+            for (int n = 1; n < (99 + 1); n++)
+            {
+                if (n % 2 != 0)
+                {
+                    odds[index] = n;
+                    index++;
+                }
+            }
+            return odds;
         }
 
         public void ChangeAllElementsToUppercase(string[] words)
         {
-            throw new NotImplementedException();
+            for (int i = 0; i < words.Length; i++)
+                words[i] = words[i].ToUpper();
         }
     }
 }
