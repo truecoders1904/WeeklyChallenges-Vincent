@@ -5,7 +5,7 @@ using System.Linq;
 namespace ChallengesWithTestsMarkVII
 {
     public class ChallengesSet03
-    {
+    {        
         public bool ArrayContainsAFalse(bool[] vals)
         {
             if (vals.Contains(false))
