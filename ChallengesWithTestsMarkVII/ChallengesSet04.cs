@@ -130,7 +130,7 @@ namespace ChallengesWithTestsMarkVII
                 for (int i = 1; i <= number; i++)
                 {
 
-                    factorial = factorial * i;
+                    factorial *= i;
                 }
 
                 return factorial;
